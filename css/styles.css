@@ -276,4 +276,41 @@ nav ul button{
     object-position: center;
     height: 400px;
 }
- 
+footer{ 
+    background-color: hsl(168, 34%, 41%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+footer .logo{
+    font-size: 20px;
+    font-family: "Fraunces",sans-serif;
+    font-family: 900;
+    color: hsl(167, 40%, 24%);
+    margin-bottom: 20px;
+}
+footer ul{
+    list-style: none;
+    display: block;
+}
+footer ul li{
+    display: inline-block;
+    padding: 10px;
+    margin: 0 5px;
+}
+footer ul li a{
+    color: hsl(167, 40%, 24%);
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "Barlow",sans-serif;
+    font-weight: 600;
+}
+.social-media{
+    margin-top: 20px;
+}
+.social-media li{
+    padding:0 5px;
+    margin:0 5px;
+}
