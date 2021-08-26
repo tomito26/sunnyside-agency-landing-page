@@ -207,5 +207,73 @@ nav ul button{
     line-height: 25px
 
 }
+.client-testimonial{
+    margin: 100px 0 50px;
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column; */
+}
+.client-testimonial h2{
+    font-family: "Fraunces",sans-serif;
+    font-size: 20px;
+    color:hsl(210, 4%, 67%);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 60px;
+}
+.clients{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly; 
+    
+}
+.client{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+}
 
+.client img{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    margin: 20px 40%;
+   
+}
+.client-review p{
+    color: hsl(232, 10%, 55%);
+    font-family: "Barlow",sans-serif;
+    width: 300px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.client-review h3{
+    color: hsl(212, 27%, 19%);
+    font-family: "Fraunces",sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+.client-review h4{
+    text-align: center;
+    color: hsl(210, 4%, 67%);
+    font-size: 14px;
+    font-family: "Barlow",sans-serif;
+}
+.sunnyside{
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+
+}
+.sunnyside img{
+    width: 25%;
+    object-fit: cover;
+    object-position: center;
+    height: 400px;
+}
  
